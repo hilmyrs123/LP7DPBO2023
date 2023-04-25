@@ -71,7 +71,7 @@ public class Controller extends KeyAdapter implements KeyListener
     /**
      * Public methods.
      */
-    public synchronized void moveObject() {
+    public synchronized void objlastdir() {
     // update player position
     GameObject temp1 = new GameObject();
     switch (lastDirection) {
