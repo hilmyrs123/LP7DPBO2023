@@ -127,7 +127,7 @@ public class Controller extends KeyAdapter implements KeyListener
             {
                 // Move left.
                 temp.setVelX(-5);
-                curr_direction = 1;
+                curr_direction = 3;
             }
             if((key == KeyEvent.VK_S) || (key == KeyEvent.VK_DOWN))
             {
@@ -139,7 +139,7 @@ public class Controller extends KeyAdapter implements KeyListener
             {
                 // Move right.
                 temp.setVelX(+5);
-                curr_direction = 3;
+                curr_direction = 1;
             }
             
             // Update score 
