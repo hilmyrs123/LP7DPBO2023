@@ -4,6 +4,8 @@
  */
 package synchronization;
 
+import synchronization.view.Game;
+
 /**
  *
  * @author Satria Ramadhani
